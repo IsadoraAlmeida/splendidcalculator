@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fad1d1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: #C5F6FF;
+    border: 6px solid #522438;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033 ;
+}
+
+#calculadora {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.back-visor {
+    background-color: #846662;
+    width: 19.926rem;
+    height: 40px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    border: 6px solid #522438;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033 ;
+}
+
+.visor {
+    background-color: #C2E688;
+    width: 18.9rem;
+    height: 30px;
+    padding-right: .4rem;
+    border: 6px solid #522438;
+    border-radius: 1rem;
+    text-align: right;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.buttons input {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border: 1px solid #522438;
+    border-radius: 3rem;
+    box-shadow: inset 5px 0 #ffffffb3, inset -5px 0 #00000033 ;
+}
+
+.red, .darker, input:active {
+    background-color: #684a78b3;
+}
+
+.red {
+    background-color: #FC6963;
+}
+
+.darker {
+    background-color: #dadce3;
+}
+
+footer, footer a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #522438;
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #522438;
+}
+
+h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: -.5rem;
+    display: inline-block;
+    animation: animation .7s infinite;
+}
+
+@keyframes animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
