@@ -3,6 +3,7 @@
 <ul>
   <li> Developed with HTML, CSS and JavaScript </li>
 </ul>
+<p>Link: <a href="https://isadoraalmeida.github.io/splendidcalculator/">Splendid Calculator</a></p>
 <p align="center">
 <img src="https://1.bp.blogspot.com/-hRO3FRb8Ywk/X5McmFXMDmI/AAAAAAAAcQs/peRxYMWfosglM5zPSgVXgdTMGBlJxD-lQCLcBGAsYHQ/w324-h400/splendid.png">
 </p>
