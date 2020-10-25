@@ -9,12 +9,12 @@ body {
 }
 
 table {
-    background-color: #C5F6FF;
+    background-color: #c5f0ff;
     border: 6px solid #522438;
     padding: 2rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033 ;
+    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033;
 }
 
 #calculadora {
@@ -36,7 +36,7 @@ table {
     border: 6px solid #522438;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033 ;
+    box-shadow: inset 10px 0 #ffffffb3, 0 6px #00000033, inset -10px 0 #00000033;
 }
 
 .visor {
@@ -57,7 +57,8 @@ table {
     font-size: 1.5rem;
     border: 1px solid #522438;
     border-radius: 3rem;
-    box-shadow: inset 5px 0 #ffffffb3, inset -5px 0 #00000033 ;
+    box-shadow: inset 5px 0 #ffffffb3, inset -5px 0 #00000033;
+    outline: none;
 }
 
 .red, .darker, input:active {
